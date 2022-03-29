@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("./img/papel-parede.jpg");
+  background-blend-mode: lighten;
+}
+
+h1 {
+  font-family: "Special Elite", cursive;
+  font-size: 50px;
+  color: #8b4513;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.comandos {
+  padding: 30px;
+  background-color: rgb(100, 0, 0, 0.8);
+  color: #fff8dc;
+  border-radius: 40%;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.comandos:hover {
+  cursor: pointer;
+}
+
+.amarelo {
+  background-color: olive;
+  border-radius: 100% 0 0 0;
+  border: 2px solid #333333;
+}
+.verde {
+  background-color: green;
+  border-radius: 0 100% 0 0;
+  border: 2px solid #333333;
+}
+.vermelho {
+  background-color: brown;
+  border-radius: 0 0 100% 0;
+  border: 2px solid #333333;
+}
+.azul {
+  background-color: darkblue;
+  border-radius: 0 0 0 100%;
+  border: 2px solid #333333;
+}
+.cor {
+  width: 250px;
+  height: 150px;
+}
+
+.verde:hover {
+  background-color: lawngreen;
+}
+.vermelho:hover {
+  background-color: red;
+}
+.amarelo:hover {
+  background-color: yellow;
+}
+.azul:hover {
+  background-color: blue;
+}
+
+button {
+  border: none;
+}
+
+#containerBotoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  background-color: #808080;
+  width: 515px;
+  padding: 25px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
